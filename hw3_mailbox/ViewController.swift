@@ -53,7 +53,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        scrollView.contentSize = CGSize(width: 320, height: 1367)
+        scrollView.contentSize = CGSize(width: 320, height: 1390)
         
         messageStartingX = messageView.frame.origin.x
         mailboxViewStartingX = mailboxView.frame.origin.x

@@ -146,8 +146,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             {
                 messageBGView.backgroundColor = self.bgGray
                 // use translate to figure out how much is visible, turn into a fraction to get opacity on icon
-                laterIcon.alpha = -(translation.x)*0.01
-                archiveIcon.alpha = (translation.x)*0.01
+                laterIcon.alpha = -(translation.x)/60
+                archiveIcon.alpha = (translation.x)/60
                 //println("\(archiveIcon.alpha)")
             }
             

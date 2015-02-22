@@ -53,7 +53,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        scrollView.contentSize = CGSize(width: 320, height: 1432)
+        scrollView.contentSize = CGSize(width: 320, height: 1367)
         
         messageStartingX = messageView.frame.origin.x
         mailboxViewStartingX = mailboxView.frame.origin.x
@@ -262,7 +262,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     func collapseMessageView()
     {
         UIView.animateWithDuration(0.3, animations: { () -> Void in
-            self.messageBGView.frame.origin.y = 0
+            self.messageBGView.frame.origin.y = -86
             self.feedView.frame.origin.y = self.feedView.frame.origin.y - self.messageBGView.frame.height
             self.resetButton.alpha = 1
         })
@@ -272,8 +272,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     func resetAll()
     {
         UIView.animateWithDuration(0.1, animations: { () -> Void in
-            self.messageBGView.frame.origin.y = 138
-            self.feedView.frame.origin.y = 225
+            self.messageBGView.frame.origin.y = 79
+            self.feedView.frame.origin.y = 165
             self.messageView.frame.origin.x = 0
             self.rescheduleView.alpha = 0
             self.listView.alpha = 0

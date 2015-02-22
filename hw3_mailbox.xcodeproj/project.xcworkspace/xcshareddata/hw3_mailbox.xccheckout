@@ -12,20 +12,24 @@
 	<dict>
 		<key>281CFE47B6114B32DBAD7858CF21C07B881BD0DF</key>
 		<string>https://github.com/staceyadams/hw1_dropbox.git</string>
+		<key>A42932B63301DDDFA260C5711EEC64A5E823F6C8</key>
+		<string>https://github.com/staceyadams/hw3_mailbox.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>hw3_mailboxNotInGit/hw3_mailbox.xcodeproj</string>
+	<string>hw3_mailbox.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>281CFE47B6114B32DBAD7858CF21C07B881BD0DF</key>
 		<string>../../..</string>
+		<key>A42932B63301DDDFA260C5711EEC64A5E823F6C8</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/staceyadams/hw1_dropbox.git</string>
+	<string>https://github.com/staceyadams/hw3_mailbox.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>281CFE47B6114B32DBAD7858CF21C07B881BD0DF</string>
+	<string>A42932B63301DDDFA260C5711EEC64A5E823F6C8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>281CFE47B6114B32DBAD7858CF21C07B881BD0DF</string>
 			<key>IDESourceControlWCCName</key>
-			<string>bootcamp</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A42932B63301DDDFA260C5711EEC64A5E823F6C8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hw3_mailbox</string>
 		</dict>
 	</array>
 </dict>

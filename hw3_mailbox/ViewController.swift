@@ -136,7 +136,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             {
                 UIView.animateWithDuration(0.2, animations: { () -> Void in
                     self.messageBGView.backgroundColor = self.bgRed
-                    self.laterIcon.alpha = 1
+                    self.archiveIcon.alpha = 1
                     self.archiveIcon.image = UIImage(named: "delete_icon") // change archive icon image to delete icon image
                 })
             }
